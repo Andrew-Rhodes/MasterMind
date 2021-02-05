@@ -31,15 +31,16 @@ namespace MasterMind
                 AgainQuestion();
                 CGI.Tries = 0;
             }
-            else if (CGI.Tries > 0)
+            else if (!result && CGI.Tries > 1)
             {
                 CGI.Tries--;
-                Console.WriteLine("");
+                Console.WriteLine();
                 Console.WriteLine("You have " + CGI.Tries + " tries left");
-                Console.WriteLine("");
+                Console.WriteLine();
             }
-            else
+            else if (CGI.Tries == 1)
             {
+                Console.WriteLine();
                 Console.WriteLine("****You Loose****");
                 AgainQuestion();
                 CGI.Tries = 0;
@@ -56,6 +57,7 @@ namespace MasterMind
 
             if (input.ToUpper() == "Y")
             {
+                Console.Clear();
                 StartNewGame();
             }
             else if (input.ToUpper() == "N")
