@@ -42,7 +42,7 @@ namespace MasterMind
             }
             else if (CGI.Tries == 1)
             {
-                _ui.Loser();
+                _ui.Loser(CGI.Solution);
                 CGI.Tries = 0;
             }
 
@@ -53,7 +53,7 @@ namespace MasterMind
         {
             GetPlayerKey(CGI);
             _ui.ClearConsole();
-            _ui.WritePlayerList(CGI.PlayerSolution);
+            _ui.WriteNumberList(CGI.PlayerSolution);
             _ui.WriteKeyList(CGI.KeyList);
         }
 

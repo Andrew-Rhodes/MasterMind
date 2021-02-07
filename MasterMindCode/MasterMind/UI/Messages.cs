@@ -57,10 +57,18 @@ namespace MasterMind.UI
             Console.WriteLine();
         }
 
-        internal void Loser()
+        internal void Loser(List<int> solution)
         {
             Console.WriteLine();
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("****You Loose****");
+            Console.ResetColor();
+
+            Console.WriteLine();
+            Console.WriteLine("The Correct Answer is...");
+            WriteNumberList(solution);
+
             AgainQuestion();
         }
 
@@ -69,7 +77,7 @@ namespace MasterMind.UI
             Console.Clear();
         }
 
-        internal void WritePlayerList(List<int> playerSolution)
+        internal void WriteNumberList(List<int> playerSolution)
         {
             Console.Write("|");
             foreach (var num in playerSolution)
