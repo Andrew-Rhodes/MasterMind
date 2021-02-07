@@ -43,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CurrentGameInfo.cs" />
-    <Compile Include="GamePlay.cs" />
-    <Compile Include="GenerateSolution.cs" />
+    <Compile Include="Logic\GameLogic.cs" />
+    <Compile Include="Logic\ModelLogic\ModelBuilder.cs" />
+    <Compile Include="Models\CurrentGameInfo.cs" />
+    <Compile Include="Logic\GamePlay.cs" />
+    <Compile Include="Logic\ModelLogic\GenerateSolution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Messages.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

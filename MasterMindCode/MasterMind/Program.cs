@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MasterMind.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,17 +11,12 @@ namespace MasterMind
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Let's Play MasterMind!");
-            Console.WriteLine("Press 'Enter' to start");
-            Console.ReadLine();
-
+            Messages message = new Messages();
             GamePlay GP = new GamePlay();
+
+            message.PlayStart();
             GP.StartNewGame();
-
-            Console.WriteLine("Thanks for playing");
-            Console.WriteLine("Press 'Enter' to End");
-            Console.ReadLine();
-
+            message.EndPlay();
         }
     }
 }

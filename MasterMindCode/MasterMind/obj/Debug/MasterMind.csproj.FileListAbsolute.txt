@@ -12,3 +12,9 @@ C:\Users\arhodes\Desktop\Documents\New folder\MasterMind\MasterMindCode\MasterMi
 C:\Users\arhodes\Desktop\Documents\New folder\MasterMind\MasterMindCode\MasterMind\obj\Debug\MasterMind.csproj.CoreCompileInputs.cache
 C:\Users\arhodes\Desktop\Documents\New folder\MasterMind\MasterMindCode\MasterMind\obj\Debug\MasterMind.exe
 C:\Users\arhodes\Desktop\Documents\New folder\MasterMind\MasterMindCode\MasterMind\obj\Debug\MasterMind.pdb
+C:\Users\arhod\Desktop\Content\Code\MasterMind\MasterMindCode\MasterMind\bin\Debug\MasterMind.exe.config
+C:\Users\arhod\Desktop\Content\Code\MasterMind\MasterMindCode\MasterMind\bin\Debug\MasterMind.exe
+C:\Users\arhod\Desktop\Content\Code\MasterMind\MasterMindCode\MasterMind\bin\Debug\MasterMind.pdb
+C:\Users\arhod\Desktop\Content\Code\MasterMind\MasterMindCode\MasterMind\obj\Debug\MasterMind.csprojResolveAssemblyReference.cache
+C:\Users\arhod\Desktop\Content\Code\MasterMind\MasterMindCode\MasterMind\obj\Debug\MasterMind.exe
+C:\Users\arhod\Desktop\Content\Code\MasterMind\MasterMindCode\MasterMind\obj\Debug\MasterMind.pdb
